@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+<style>
+        /* General Styles */
+        h1 {
+            text-align: center;
+        }
+
+        /* Class Styles */
+        .middle {
+            margin: 20px auto; /* Centers the table itself on the page */
+            border-collapse: collapse;
+        }
+        
+        .middle td, .middle th {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+/* Table 3 Specific Row Colors */
+        .green-row {
+            background-color: #d4edda; /* A soft, web-friendly green */
+        }
+
+        .blue-row {
+            background-color: #cce5ff; /* A soft, web-friendly blue */
+        }
+        
+        /* Ensures the image fits nicely inside its cell */
+        #t-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
